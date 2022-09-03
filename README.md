@@ -1,2 +1,2 @@
-# edugator
-edu
+# barber
+barberstore

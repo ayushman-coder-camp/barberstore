@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheaterView Cinemas - watch any movie, anywhere</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="flex-nav">
+        <div class="logo">
+            <img src="assets/logo.png" width="210">
+        </div>
+        <ul class="nav-links">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="rating.html" class="nav-link">Rating</a></li>
+            <li class="nav-item"><a href="membership.html" class="nav-link">Membership</a></li>
+            <li class="nav-item"><a href="price-plan.html" class="nav-link">Price Plan</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="top">
+        <header class="top-text">
+            <h2>About<br>Membership</h2>
+        </header>
+    </section>
+    <section id="about">
+        <center>
+            <h1>About Membership</h1>
+            <p>Buying membership for $16.99 <br>gives you the oppourtunity to any movie,<br> anywhere, any time. Try for 1 year only in the free TheaterView app.</p>
+            <div class="images">
+                <img src="assets/app.png" alt="">
+                <div class="group" style="display: none;" id="show-group">
+                    <img src="assets/download1.png" alt="">
+                    <img src="assets/download2.png" alt="">
+                </div>
+                <br>
+                <button onclick="showDownload()">Download Now</button>
+            </div>
+        </center>
+    </section>
+    <footer id="contact">
+        <div class="col1">
+            <div class="item">
+                <div class="svg"><img src="assets/envelope-solid.svg" alt="" width="50"></div>
+                <h3>ayushman45082@gmail.com</h3>
+            </div>
+            <div class="item">
+                <div class="svg"><img src="assets/phone-alt-solid.svg" alt="" width="50"></div>
+                <h3>302-568-0002</h3>
+            </div>
+            <div class="item">
+                <div class="svg"><img src="assets/map-marker-alt-solid.svg" alt="" width="50"></div>
+                <h3>2702 Merville Ave, Baltimore, <br><small>MD 21215</small></h3>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="col2">
+            <center>
+            <h1 style="color: #f6f6f6;">Contact Us</h1>
+            <form action="userinfo.php" method="post">
+                <input type="text" placeholder="Enter Full Name">
+                <br><br>
+                <input type="email" name="account-name" id="email-account-input-box" placeholder="Enter Email Address">
+                <br><br>
+                <textarea id="contact-message" cols="30" rows="10"></textarea>
+                <br><br>
+                <button type="submit">Submit Form</button>
+            </form>
+            </center>
+        </div>
+    </footer>
+    <script src="js/about.js"></script>
+</body>
+</html>
